@@ -42,6 +42,33 @@ sum = num1 + num2
 print("The sum is:", sum)
 
 # Question 07
+
+sub1 = float(input("Enter marks of Subject 1: "))
+sub2 = float(input("Enter marks of Subject 2: "))
+sub3 = float(input("Enter marks of Subject 3: "))
+sub4 = float(input("Enter marks of Subject 4: "))
+sub5 = float(input("Enter marks of Subject 5: "))
+
+total = sub1 + sub2 + sub3 + sub4 + sub5
+average = total / 5
+percentage = (total / 500) * 100
+
+if percentage >= 90:
+    grade = "A"
+elif percentage >= 80:
+    grade = "B"
+elif percentage >= 70:
+    grade = "C"
+elif percentage >= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print("\nTotal Marks:", total)
+print("Average:", average)
+print("Percentage:", percentage)
+print("Grade:", grade)
+
 # Question 08
 
 num = int(input("Enter a number: "))
